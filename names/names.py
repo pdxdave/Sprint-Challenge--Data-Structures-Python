@@ -1,6 +1,6 @@
 # This solution uses a binary search tree 
 # Worst case time complexity would be 0(n)
-# The original solution took 11 seconds to run.
+# The original solution took 11 seconds to run on my computer.
 # The updated solution took less than 1 second.
 # A balanced binary search tree will improve the time complexity to O(log n)
 
