@@ -1,3 +1,8 @@
+# This solution uses a binary search tree 
+# Worst case time complexity would be 0(n)
+# The original solution took 11 seconds to run.
+
+
 import time
 
 start_time = time.time()
