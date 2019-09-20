@@ -1,9 +1,12 @@
 # This solution uses a binary search tree 
 # Worst case time complexity would be 0(n)
 # The original solution took 11 seconds to run.
+# The updated solution took less than 1 second.
+# A balanced binary search tree will improve the time complexity to O(log n)
 
 
 import time
+from name_checker import NameChecker
 
 start_time = time.time()
 
@@ -16,11 +19,13 @@ lists_2 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
 # This was the original solution provided with the code
-# duplicates = []
+
 # for name_1 in names_1:
 #     for name_2 in names_2:
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
+
+duplicates = []
 
 first_name_list = NameChecker(lists_1[0])
 for i in range(1, len(lists_1)):
